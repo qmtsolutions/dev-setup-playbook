@@ -1,0 +1,13 @@
+#!/bin/sh
+
+## Install Xcode command line tools
+xcode-select --install
+sudo xcodebuild -license
+
+## Install pip module
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --user
+pip3 install ansible
+
+## Verify Ansible
+ansible --version
