@@ -2,7 +2,6 @@
 
 ## Install Xcode command line tools
 xcode-select --install
-sudo xcodebuild -license
 
 ## Install pip module
 curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
